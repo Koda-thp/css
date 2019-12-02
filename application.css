@@ -1,6 +1,6 @@
 :root{
-    --gold1: #D3B167;
-    --gold2: #EBCE67;
+  --goldlight: #EBCE67;
+  --golddark: #D3B167;
 }
 
 
@@ -34,41 +34,52 @@ h6{
 p{
     font-size: 1rem;
 }
+
+body {
+  background-color: #505050;
+}
+
+a {
+  font-size: 1rem;
+}
+
+/* =============================================== */
+
 #btn-1{
     width: 10rem;
     height: 3rem;
-    color: var(--gold2);
+    color: var(--goldlight);
 }
 #btn-2{
     width: 30rem;
     height: 3rem;
-    color: var(--gold2);
+    color: var(--goldlight);
 }
 #btn-3{
     height: 3rem;
-    color: var(--gold2);
+    color: var(--goldlight);
 }
 #btn-4{
     height: 3rem;
-    color: var(--gold1);
+    color: var(--golddark);
 }
 #btn-5{
     height: 3rem;
-    color: var(--gold1);
+    color: var(--golddark);
 }
 #btn-6{
     height: 3rem;
-    color: var(--gold1);
+    color: var(--golddark);
 }
 footer{
     background-color: black;
     margin-top: 5%;
     height: 19rem;
-    
+
 
 }
 .h6-footer{
-    color: var(--gold2);
+    color: var(--goldlight);
     margin-top: 2%;
 }
 .p-footer{
@@ -78,8 +89,97 @@ footer{
     color: rgb(250, 250, 250);
 }
 .a-footer:hover{
-    color: var(--gold2);
+    color: var(--goldlight);
 }
 #jumb{
     background-image: image(https://cdn.pixabay.com/photo/2016/11/22/19/15/dark-1850120_960_720.jpg);
+}
+
+/* NAVBAR CSS */
+/* ======================================================== */
+
+#navbar_1 {
+  background-color: black;
+}
+
+#navbar_1 a {
+  color: var(--golddark);
+}
+
+#btn_1_connexion, #btn_1_inscription {
+  background-color: black;
+  color: var(--golddark);
+  font-size: 1rem;
+  margin: 0.2%;
+}
+
+#btn_1_connexion:hover, #btn_1_inscription:hover {
+  background-color: var(--golddark);
+  color: black;
+  margin: 0.2%;
+}
+
+/* ========================================================= */
+
+#navbar_2 {
+  background-color: black;
+}
+
+#navbar_2 a {
+  color: var(--goldlight);
+}
+
+#btn_2_connexion, #btn_2_inscription {
+  background-color: black;
+  color: var(--goldlight);
+  font-size: 1rem;
+  margin: 0.2%;
+}
+
+#btn_2_connexion:hover, #btn_2_inscription:hover {
+  background-color: var(--goldlight);
+  color: black;
+  margin: 0.2%;
+}
+
+/* ========================================================= */
+#navbar_3 {
+  background-color: var(--golddark);
+}
+
+#navbar_3 a {
+  color: black;
+}
+
+#btn_3_connexion {
+  background-color: black;
+  color: var(--golddark);
+  margin: 0.2%;
+}
+
+#btn_3_inscription {
+  background-color: black;
+  color: var(--golddark);
+  margin: 0.2%;
+}
+
+/* ========================================================= */
+#navbar_4 {
+  background-color: var(--goldlight);
+}
+
+#navbar_4 a {
+  color: black;
+}
+
+#btn_4_connexion {
+  background-color: black;
+  color: var(--goldlight);
+  margin: 0.2%;
+}
+
+#btn_4_inscription {
+  background-color: black;
+  color: var(--goldlight);
+  margin: 0.2%;
 }
