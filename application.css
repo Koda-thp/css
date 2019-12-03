@@ -357,7 +357,7 @@ footer{
 
 .card-header{
 
-  color: #EBCE67;
+  color: #D3B167;
   background-color: black;
   font-size: 1.5rem;
 
@@ -378,7 +378,7 @@ footer{
 
 #btn-submit-sign-up{
 
-  background-color: #EBCE67;
+  background-color: #D3B167;
   color: black;
 
 }
@@ -405,7 +405,7 @@ footer{
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   color: black;
-  background-color: #EBCE67;
+  background-color: #D3B167;
   font-size: 1.5rem;
 
 }
@@ -420,7 +420,7 @@ font-size: 1rem;
 #btn-submit-sign-in{
 
   background-color: black;
-  color: #EBCE67;
+  color: #D3B167;
 
 }
 
