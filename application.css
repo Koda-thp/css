@@ -1,100 +1,107 @@
-:root{
+:root {
   --goldlight: #EBCE67;
   --golddark: #D3B167;
 }
 
-
 body {
-    background-color: rgb(243, 243, 243);
-    height: 100%;
-    width: 100%;
+  background-color: rgb(243, 243, 243);
+  height: 100%;
+  width: 100%;
 }
 
-h1{
-    font-size: 8rem;
-
-}
-h2{
-    font-size: 6rem;
-}
-h3{
-    font-size: 4rem;
-
-}
-h4{
-    font-size: 3rem;
-
-}
-h5{
-    font-size: 2rem;
-
-}
-h6{
-    font-size: 1.5rem;
-
-}
-p{
-    font-size: 1rem;
+h1 {
+  font-size: 8rem;
 }
 
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
 
 a {
   font-size: 1rem;
 }
 
 /* =============================================== */
+#btn-1 {
+  width: 10rem;
+  height: 3rem;
+  color: var(--goldlight);
+}
 
-#btn-1{
-    width: 10rem;
-    height: 3rem;
-    color: var(--goldlight);
+#btn-2 {
+  width: 30rem;
+  height: 3rem;
+  color: var(--goldlight);
 }
-#btn-2{
-    width: 30rem;
-    height: 3rem;
-    color: var(--goldlight);
+
+#btn-3 {
+  height: 3rem;
+  color: var(--goldlight);
 }
-#btn-3{
-    height: 3rem;
-    color: var(--goldlight);
+
+#btn-4 {
+  height: 3rem;
+  color: var(--golddark);
 }
-#btn-4{
-    height: 3rem;
-    color: var(--golddark);
+
+#btn-5 {
+  height: 3rem;
+  color: var(--golddark);
 }
-#btn-5{
-    height: 3rem;
-    color: var(--golddark);
+
+#btn-6 {
+  height: 3rem;
+  color: var(--golddark);
 }
-#btn-6{
-    height: 3rem;
-    color: var(--golddark);
+
+#footer {
+  background-color: black;
+  margin-top: 5%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-#footer{
-    background-color: black;
-    margin-top: 5%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+
+.h6-footer {
+  color: var(--goldlight);
+  margin-top: 2%;
 }
-.h6-footer{
-    color: var(--goldlight);
-    margin-top: 2%;
+
+.p-footer {
+  color: rgb(250, 250, 250);
 }
-.p-footer{
-    color: rgb(250, 250, 250);
+
+.a-footer {
+  color: rgb(250, 250, 250);
 }
-.a-footer{
-    color: rgb(250, 250, 250);
-}
-.a-footer:hover{
-    color: var(--goldlight);
+
+.a-footer:hover {
+  color: var(--goldlight);
 }
 
 /* NAVBAR CSS */
 /* ======================================================== */
-
 #navbar_1 {
   background-color: black;
 }
@@ -117,7 +124,6 @@ a {
 }
 
 /* ========================================================= */
-
 #navbar_2 {
   background-color: black;
 }
@@ -148,13 +154,14 @@ a {
   color: black;
 }
 
-#btn_3_connexion {
-  background-color: black;
-  color: var(--golddark);
+#btn_3_connexion, #btn_3_inscription {
+  background-color: var(--golddark);
+  color: black;
+  font-size: 1rem;
   margin: 0.2%;
 }
 
-#btn_3_inscription {
+#btn_3_connexion:hover, #btn_3_inscription:hover {
   background-color: black;
   color: var(--golddark);
   margin: 0.2%;
@@ -169,37 +176,30 @@ a {
   color: black;
 }
 
-#btn_4_connexion {
+#btn_4_connexion, #btn_4_inscription {
+  background-color: var(--goldlight);
+  color: black;
+  font-size: 1rem;
+  margin: 0.2%;
+}
+
+#btn_4_connexion:hover, #btn_4_inscription:hover {
   background-color: black;
   color: var(--goldlight);
   margin: 0.2%;
 }
-
-#btn_4_inscription {
-  background-color: black;
-  color: var(--goldlight);
-  margin: 0.2%;
-}
-
-
 
 /* CARDS */
 /* =========================================== */
-
-.card-team{
-
+.card-team {
   background-color: black;
   max-width: 300px;
   margin: auto;
   text-align: center;
   color: white;
-  
-
 }
 
-.button-card-contact{
-
-
+.button-card-contact {
   border: #EBCE67;
   color: white;
   padding: 15px 32px;
@@ -207,7 +207,7 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  color:#EBCE67;
+  color: #EBCE67;
   background-color: black;
 }
 
@@ -217,38 +217,31 @@ a {
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
-  
+
 }
 */
-.title-card, p.describe-card{
-
+.title-card, p.describe-card {
   margin-top: 1rem;
-
 }
 
-.title-card{
-
+.title-card {
   font-size: 2rem;
 }
 
-.fa{
-
-  color: #EBCE67; 
+.fa {
+  color: #EBCE67;
   margin-inline: 10%;
   margin-bottom: 5%;
   margin-top: 5%;
-
 }
 
-.fa:hover{
-
-  
+.fa:hover {
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
-  
 }
-#footer-container{
+
+#footer-container {
   height: auto;
   width: auto;
 }
