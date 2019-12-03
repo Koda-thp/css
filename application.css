@@ -5,7 +5,9 @@
 
 
 body {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(243, 243, 243);
+    height: 100%;
+    width: 100%;
 }
 
 h1{
@@ -35,9 +37,6 @@ p{
     font-size: 1rem;
 }
 
-body {
-  background-color: #505050;
-}
 
 a {
   font-size: 1rem;
@@ -71,12 +70,13 @@ a {
     height: 3rem;
     color: var(--golddark);
 }
-footer{
+#footer{
     background-color: black;
     margin-top: 5%;
-    height: 19rem;
-
-
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .h6-footer{
     color: var(--goldlight);
@@ -90,9 +90,6 @@ footer{
 }
 .a-footer:hover{
     color: var(--goldlight);
-}
-#jumb{
-    background-image: image(https://cdn.pixabay.com/photo/2016/11/22/19/15/dark-1850120_960_720.jpg);
 }
 
 /* NAVBAR CSS */
@@ -151,14 +148,13 @@ footer{
   color: black;
 }
 
-#btn_3_connexion, #btn_3_inscription {
-  background-color: var(--golddark);
-  color: black;
-  font-size: 1rem;
+#btn_3_connexion {
+  background-color: black;
+  color: var(--golddark);
   margin: 0.2%;
 }
 
-#btn_3_connexion:hover, #btn_3_inscription:hover {
+#btn_3_inscription {
   background-color: black;
   color: var(--golddark);
   margin: 0.2%;
@@ -173,14 +169,13 @@ footer{
   color: black;
 }
 
-#btn_4_connexion, #btn_4_inscription {
-  background-color: var(--goldlight);
-  color: black;
-  font-size: 1rem;
+#btn_4_connexion {
+  background-color: black;
+  color: var(--goldlight);
   margin: 0.2%;
 }
 
-#btn_4_connexion:hover, #btn_4_inscription:hover {
+#btn_4_inscription {
   background-color: black;
   color: var(--goldlight);
   margin: 0.2%;
@@ -198,7 +193,7 @@ footer{
   margin: auto;
   text-align: center;
   color: white;
-
+  
 
 }
 
@@ -216,15 +211,15 @@ footer{
   background-color: black;
 }
 
-
+/*    Change de nom pour a:hover ca ca s'applique a tout les a
 .button-card-contact:hover, a:hover {
 
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
-
+  
 }
-
+*/
 .title-card, p.describe-card{
 
   margin-top: 1rem;
@@ -238,7 +233,7 @@ footer{
 
 .fa{
 
-  color: #EBCE67;
+  color: #EBCE67; 
   margin-inline: 10%;
   margin-bottom: 5%;
   margin-top: 5%;
@@ -247,9 +242,13 @@ footer{
 
 .fa:hover{
 
-
+  
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
-
+  
+}
+#footer-container{
+  height: auto;
+  width: auto;
 }
