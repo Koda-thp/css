@@ -151,13 +151,14 @@ footer{
   color: black;
 }
 
-#btn_3_connexion {
-  background-color: black;
-  color: var(--golddark);
+#btn_3_connexion, #btn_3_inscription {
+  background-color: var(--golddark);
+  color: black;
+  font-size: 1rem;
   margin: 0.2%;
 }
 
-#btn_3_inscription {
+#btn_3_connexion:hover, #btn_3_inscription:hover {
   background-color: black;
   color: var(--golddark);
   margin: 0.2%;
@@ -172,13 +173,14 @@ footer{
   color: black;
 }
 
-#btn_4_connexion {
-  background-color: black;
-  color: var(--goldlight);
+#btn_4_connexion, #btn_4_inscription {
+  background-color: var(--goldlight);
+  color: black;
+  font-size: 1rem;
   margin: 0.2%;
 }
 
-#btn_4_inscription {
+#btn_4_connexion:hover, #btn_4_inscription:hover {
   background-color: black;
   color: var(--goldlight);
   margin: 0.2%;
@@ -196,7 +198,7 @@ footer{
   margin: auto;
   text-align: center;
   color: white;
-  
+
 
 }
 
@@ -220,7 +222,7 @@ footer{
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
-  
+
 }
 
 .title-card, p.describe-card{
@@ -236,7 +238,7 @@ footer{
 
 .fa{
 
-  color: #EBCE67; 
+  color: #EBCE67;
   margin-inline: 10%;
   margin-bottom: 5%;
   margin-top: 5%;
@@ -245,9 +247,9 @@ footer{
 
 .fa:hover{
 
-  
+
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
-  
+
 }
