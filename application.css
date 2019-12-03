@@ -42,6 +42,9 @@ a {
 }
 
 /* =============================================== */
+
+/* BUTTON */
+
 #btn-1 {
   width: 10rem;
   height: 3rem;
@@ -100,30 +103,12 @@ a {
   color: var(--goldlight);
 }
 
-/* NAVBAR CSS */
-/* ======================================================== */
-#navbar_1 {
-  background-color: black;
-}
-
-#navbar_1 a {
-  color: var(--golddark);
-}
-
-#btn_1_connexion, #btn_1_inscription {
-  background-color: black;
-  color: var(--golddark);
-  font-size: 1rem;
-  margin: 0.2%;
-}
-
-#btn_1_connexion:hover, #btn_1_inscription:hover {
-  background-color: var(--golddark);
-  color: black;
-  margin: 0.2%;
-}
-
 /* ========================================================= */
+
+/* NAVBAR CSS */
+
+/* BLACK / GOLD LIGHT */
+
 #navbar_2 {
   background-color: black;
 }
@@ -136,38 +121,17 @@ a {
   background-color: black;
   color: var(--goldlight);
   font-size: 1rem;
-  margin: 0.2%;
+  margin: 0.1%;
 }
 
 #btn_2_connexion:hover, #btn_2_inscription:hover {
   background-color: var(--goldlight);
   color: black;
-  margin: 0.2%;
+  margin: 0.1%;
 }
 
-/* ========================================================= */
-#navbar_3 {
-  background-color: var(--golddark);
-}
+/* GOLD LIGHT / BLACK */
 
-#navbar_3 a {
-  color: black;
-}
-
-#btn_3_connexion, #btn_3_inscription {
-  background-color: var(--golddark);
-  color: black;
-  font-size: 1rem;
-  margin: 0.2%;
-}
-
-#btn_3_connexion:hover, #btn_3_inscription:hover {
-  background-color: black;
-  color: var(--golddark);
-  margin: 0.2%;
-}
-
-/* ========================================================= */
 #navbar_4 {
   background-color: var(--goldlight);
 }
@@ -180,17 +144,19 @@ a {
   background-color: var(--goldlight);
   color: black;
   font-size: 1rem;
-  margin: 0.2%;
+  margin: 0.1%;
 }
 
 #btn_4_connexion:hover, #btn_4_inscription:hover {
   background-color: black;
   color: var(--goldlight);
-  margin: 0.2%;
+  margin: 0.1%;
 }
 
-/* CARDS */
 /* =========================================== */
+
+/* CARDS */
+
 .card-team {
   background-color: black;
   max-width: 300px;
