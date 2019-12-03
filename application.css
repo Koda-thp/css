@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
 }
 
 h1{
@@ -35,9 +35,7 @@ p{
     font-size: 1rem;
 }
 
-body {
-  background-color: #505050;
-}
+
 
 a {
   font-size: 1rem;
@@ -92,7 +90,7 @@ footer{
     color: var(--goldlight);
 }
 #jumb{
-    background-image: image(https://cdn.pixabay.com/photo/2016/11/22/19/15/dark-1850120_960_720.jpg);
+    background-image: image("https://cdn.pixabay.com/photo/2016/11/22/19/15/dark-1850120_960_720.jpg");
 }
 
 /* NAVBAR CSS */
@@ -195,10 +193,57 @@ footer{
   max-width: 300px;
   margin: auto;
   text-align: center;
-  color: white;
-  
+  color: #D3B167;
 
 }
+
+.card-team1{
+
+  background-color: #D3B167;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  color: black;  
+
+}
+
+.card-team2{
+
+  background-color: white;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  color: #EBCE67;  
+
+}
+
+
+#card-box{
+
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 40px;
+
+}
+
+#card-box1{
+
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 40px;
+
+}
+
+#card-box2{
+
+  background-color: white;
+  color: #EBCE67;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 40px;
+
+}
+
 
 .button-card-contact{
 
@@ -214,13 +259,55 @@ footer{
   background-color: black;
 }
 
+.button-card-contact1{
 
-.button-card-contact:hover, a:hover {
+  border: #EBCE67;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  background-color: #D3B167;
+
+}
+
+.button-card-contact2{
+
+  border: #EBCE67;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #EBCE67;
+  background-color: white;
+
+}
+
+
+.button-card-contact:hover{
 
   opacity: 0.7;
   background-color: #EBCE67;
   color: black;
   
+}
+
+.button-card-contact1:hover{
+
+  opacity: 0.7;
+  background-color: black;
+  color:  #EBCE67;
+  
+}
+
+.button-card-contact2:hover{
+
+  opacity: 0.7;
+  background-color: #EBCE67;
+  color: white;
+
 }
 
 .title-card, p.describe-card{
@@ -232,22 +319,113 @@ footer{
 .title-card{
 
   font-size: 2rem;
-}
-
-.fa{
-
-  color: #EBCE67; 
-  margin-inline: 10%;
-  margin-bottom: 5%;
-  margin-top: 5%;
 
 }
 
-.fa:hover{
+#fa{
 
+  color: #EBCE67;
+  margin-left: 10%;
+  margin-right: 10%;
   
-  opacity: 0.7;
+}
+
+#fa1{
+
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#fa2{
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+/* SIGN UP */
+/* ============================== */
+
+.sign-up-card{
+
+  padding-left: 30rem;
+  padding-top: 10rem;
+  
+}
+
+.card-header{
+
+  color: #EBCE67;
+  background-color: black;
+  font-size: 1.5rem;
+
+}
+
+.card-body{
+
+  color: black;
+  font-size: 1rem;
+
+}
+
+.card-title{
+
+  font-size: 1rem;
+
+}
+
+#btn-submit-sign-up{
+
   background-color: #EBCE67;
   color: black;
+
+}
+
+.ImputEmail1 , .ImputPassword1{
+
+  font-size: 1rem;
+
+}
+
+/* SIGN IN */
+/* ====================== */
+
+.sign-in-card{
+
+  padding-left: 30rem;
+  padding-top: 10rem;
   
+}
+
+.card-header1{
+
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  color: black;
+  background-color: #EBCE67;
+  font-size: 1.5rem;
+
+}
+
+
+.card-title{
+
+font-size: 1rem;
+
+}
+
+#btn-submit-sign-in{
+
+  background-color: black;
+  color: #EBCE67;
+
+}
+
+.ImputEmail2, .ImputPassword2{
+
+  font-size: 1rem;
+
 }
