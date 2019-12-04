@@ -42,9 +42,7 @@ a {
 }
 
 /* =============================================== */
-
 /* BUTTON */
-
 #btn-1 {
   width: 10rem;
   height: 3rem;
@@ -104,11 +102,8 @@ a {
 }
 
 /* ========================================================= */
-
 /* NAVBAR CSS */
-
 /* BLACK / GOLD LIGHT */
-
 #navbar_2 {
   background-color: black;
 }
@@ -131,7 +126,6 @@ a {
 }
 
 /* GOLD LIGHT / BLACK */
-
 #navbar_4 {
   background-color: var(--goldlight);
 }
@@ -154,60 +148,79 @@ a {
 }
 
 /* =========================================== */
-
-/* CARDS */
-
-.card-team {
-  background-color: black;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  color: white;
-}
-
-.button-card-contact {
-  border: #EBCE67;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  color: #EBCE67;
-  background-color: black;
-}
-
-/*    Change de nom pour a:hover ca ca s'applique a tout les a
-.button-card-contact:hover, a:hover {
-
-  opacity: 0.7;
-  background-color: #EBCE67;
-  color: black;
-
-}
-*/
-.title-card, p.describe-card {
-  margin-top: 1rem;
-}
-
-.title-card {
-  font-size: 2rem;
-}
-
-.fa {
-  color: #EBCE67;
-  margin-inline: 10%;
-  margin-bottom: 5%;
-  margin-top: 5%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-  background-color: #EBCE67;
-  color: black;
-}
-
+/* FOOTER */
 #footer-container {
   height: auto;
   width: auto;
+}
+
+/* CARDS */
+
+#card_body_bl_gd {
+  background-color: black;
+  color: var(--golddark);
+}
+
+#btn_social_link_gd {
+  color: var(--golddark);
+}
+
+#btn_social_link_gd:hover {
+  background-color: var(--golddark);
+  color: black;
+}
+
+/* ================================ */
+
+#card_body_bl_wh_gd {
+  color: var(--golddark);
+}
+
+#btn_social_link_wh {
+  color: black;
+}
+
+#btn_social_link_wh:hover {
+  background-color: black;
+  color: var(--golddark);
+}
+/* ================================ */
+
+#card_body_wh_bl_gd {
+  color: var(--golddark);
+}
+
+#btn_social_link_wh {
+  color: black;
+}
+
+#btn_social_link_wh:hover {
+  background-color: black;
+  color: var(--golddark);
+}
+/* ================================ */
+#card_body_bl_gl {
+  background-color: black;
+  color: var(--goldlight);
+}
+
+#btn_social_link_gl {
+  color: var(--goldlight);
+}
+
+#btn_social_link_gl:hover {
+  background-color: var(--goldlight);
+  color: black;
+}
+
+/* ==================================== */
+
+#card_body_bl_wh_gl {
+  background-color: black;
+  color: var(--goldlight);
+}
+
+#btn_social_link_wh:hover {
+  background-color: black;
+  color: var(--goldlight);
 }
