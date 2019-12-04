@@ -75,32 +75,6 @@ a {
   color: var(--golddark);
 }
 
-#footer {
-  background-color: black;
-  margin-top: 5%;
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.h6-footer {
-  color: var(--goldlight);
-  margin-top: 2%;
-}
-
-.p-footer {
-  color: rgb(250, 250, 250);
-}
-
-.a-footer {
-  color: rgb(250, 250, 250);
-}
-
-.a-footer:hover {
-  color: var(--goldlight);
-}
-
 /* ========================================================= */
 /* NAVBAR CSS */
 /* BLACK / GOLD LIGHT */
@@ -149,13 +123,38 @@ a {
 
 /* =========================================== */
 /* FOOTER */
-#footer-container {
-  height: auto;
-  width: auto;
+
+footer {
+  background-color: black;
+  margin-top: 5%;
+  /* height: auto; */
+  position: relative;
+  /* width: 100%; */
+}
+
+.h6-footer {
+  color: var(--goldlight);
+  margin-top: 2%;
+}
+
+.p-footer {
+  color: rgb(250, 250, 250);
+}
+
+.a-footer {
+  color: rgb(250, 250, 250);
+}
+
+.a-footer:hover {
+  color: var(--goldlight);
 }
 
 /* CARDS */
+#cards_gd_gl {
+  margin: auto;
+}
 
+/* =========================== */
 #card_body_bl_gd {
   background-color: black;
   color: var(--golddark);
@@ -171,7 +170,6 @@ a {
 }
 
 /* ================================ */
-
 #card_body_bl_wh_gd {
   color: var(--golddark);
 }
@@ -184,8 +182,8 @@ a {
   background-color: black;
   color: var(--golddark);
 }
-/* ================================ */
 
+/* ================================ */
 #card_body_wh_bl_gd {
   color: var(--golddark);
 }
@@ -198,6 +196,7 @@ a {
   background-color: black;
   color: var(--golddark);
 }
+
 /* ================================ */
 #card_body_bl_gl {
   background-color: black;
@@ -214,7 +213,6 @@ a {
 }
 
 /* ==================================== */
-
 #card_body_bl_wh_gl {
   background-color: black;
   color: var(--goldlight);
