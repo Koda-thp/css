@@ -296,7 +296,6 @@ footer{
 
 .button-card-contact1:hover{
 
-  opacity: 0.7;
   background-color: black;
   color:  #EBCE67;
   
@@ -305,7 +304,7 @@ footer{
 .button-card-contact2:hover{
 
   opacity: 0.7;
-  background-color: #EBCE67;
+  background-color: #D3B167;
   color: white;
 
 }
