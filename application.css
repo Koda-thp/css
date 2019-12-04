@@ -383,6 +383,13 @@ footer{
 
 }
 
+#btn-submit-sign-up:hover{
+
+  background-color: black;
+  color: #D3B167;
+
+}
+
 .ImputEmail1 , .ImputPassword1{
 
   font-size: 1rem;
@@ -424,6 +431,14 @@ font-size: 1rem;
   color: #D3B167;
 
 }
+
+#btn-submit-sign-in:hover{
+
+  background-color: #D3B167;
+  color: black;
+
+}
+
 
 .ImputEmail2, .ImputPassword2{
 
